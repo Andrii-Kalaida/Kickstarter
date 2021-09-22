@@ -6,13 +6,13 @@
 }
 
 @mixin onTablet {
-  @media (max-width: 1025px) {
+  @media (max-width: 1024px) {
     @content;
   }
 }
 
 @mixin onMobile {
-  @media (max-width: 769px) {
+  @media (max-width: 699px) {
     @content;
   }
 }
