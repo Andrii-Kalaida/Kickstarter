@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-image: url('/images/footer_background.svg');
+  background-image: url("/images/footer_background.svg");
   margin-top: 72px;
 
   @include onMobile {
@@ -16,9 +16,9 @@
     }
   }
   &__menu {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 
     @include onMobile {
       margin: 0 auto;

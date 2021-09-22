@@ -23,7 +23,6 @@
 
   &__circle {
     @include flex-jc-center-ai-center;
-    
 
     @include onMobile {
       margin-bottom: 20px;
